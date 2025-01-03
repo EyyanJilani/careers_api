@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "career.js",
   "scripts": {
-    "start": "node career.js",
-    "build": "echo 'No build step needed'"
+    "start": "node career.js"
   },
   "dependencies": {
     "axios": "^1.7.9",
