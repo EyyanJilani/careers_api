@@ -138,7 +138,7 @@ app.post("/submit", upload.single("fileUrl"), async (req, res) => {
   // Prepare the email content
   const mailOptions = {
     from: "joeegbert3@gmail.com",
-    to: "ayyancatalyst@gmail.com", // Replace with recipient email
+    to: ["ayyancatalyst@gmail.com", "info@catalyst.pk", "sohaib@catalyst.pk", "hr@catalyst.pk"],
     subject: "New Form Submission",
     text: `New form submission from:
 
